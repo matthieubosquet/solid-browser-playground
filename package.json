@@ -1,0 +1,38 @@
+{
+  "name": "solid-browser-playground",
+  "version": "0.0.1",
+  "description": "<DESCRIPTION>",
+  "license": "MIT",
+  "repository": "https://github.com/matthieubosquet/solid-browser-playground",
+  "bugs": "https://github.com/matthieubosquet/solid-browser-playground/issues",
+  "homepage": "https://github.com/matthieubosquet/solid-browser-playground#readme",
+  "keywords": [],
+  "contributors": [
+    "Matthieu Bosquet <matthieu@cognithive.com> (https://github.com/matthieubosquet)"
+  ],
+  "type": "module",
+  "exports": "./dist/js/mod.js",
+  "types": "dist/js/mod.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.20.1",
+    "buffer": "^6.0.3",
+    "serve": "^13.0.2",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@inrupt/solid-client": "^1.21.0",
+    "@inrupt/solid-client-authn-browser": "^1.11.7"
+  },
+  "scripts": {
+    "build": "webpack",
+    "serve": "serve dist",
+    "start": "webpack serve --progress --color"
+  }
+}

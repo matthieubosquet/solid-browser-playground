@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "incremental": true,
+    "inlineSources": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "noUnusedLocals": true,
+    "outDir": "dist/js",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "stripInternal": true
+  },
+  "include": ["./src/mod.ts"]
+}
